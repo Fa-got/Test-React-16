@@ -11,12 +11,9 @@ class Comp extends Component {
   render() {
     return (
       <div className="Comp">
-        <h1>
+
           <Text />
-        </h1>  
-        <ul>
-          <Table num={this.props} />
-        </ul>
+
       </div>
     )
   }
