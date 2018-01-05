@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Table from './table';
-import Text from './text';
+import ColumnCart from './columnChart';
+import PieChart from './pieChart';
 
 class Comp extends Component {
   constructor(props) {
@@ -11,9 +11,8 @@ class Comp extends Component {
   render() {
     return (
       <div className="Comp">
-
-          <Text />
-
+          <PieChart />
+			  	<ColumnCart />
       </div>
     )
   }
